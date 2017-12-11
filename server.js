@@ -3,9 +3,9 @@
 
 const driveCredentials = require('./data/driveCredentials.json');
 
-const DRIVE_CLIENT_ID = driveCredentials.clientId;
-const DRIVE_CLIENT_SECRET = driveCredentials.clientSecret;
-const DRIVE_REDIRECT_URI = process.env.DRIVE_REDIRECT_URI || 'http://localhost/login-callback';
+const DRIVE_CLIENT_ID = "739926566274-66fhgmfib3bg2h219579udlm3ldm8u1v.apps.googleusercontent.com";
+const DRIVE_CLIENT_SECRET = "qjwB45qLa3Hf4piYAnlDoKxN";
+const DRIVE_REDIRECT_URI =  "http://arif24.herokuapp.com/login-callback";
 const DRIVE_RETURN_FIELDS = 'id,name,webViewLink';
 const DRIVE_TORRENT_DIR = 'My torrents';
 
