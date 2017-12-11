@@ -7,7 +7,7 @@ const DRIVE_CLIENT_ID = "739926566274-66fhgmfib3bg2h219579udlm3ldm8u1v.apps.goog
 const DRIVE_CLIENT_SECRET = "qjwB45qLa3Hf4piYAnlDoKxN";
 const DRIVE_REDIRECT_URI =  "http://arif24.herokuapp.com/login-callback";
 const DRIVE_RETURN_FIELDS = 'id,name,webViewLink';
-const DRIVE_TORRENT_DIR = 'My torrents';
+const DRIVE_TORRENT_DIR = '';
 
 const isProduction = process.env.NODE_ENV == 'production';
 
