@@ -3,8 +3,8 @@
 
 const driveCredentials = require('./data/driveCredentials.json');
 
-const DRIVE_CLIENT_ID = "739926566274-66fhgmfib3bg2h219579udlm3ldm8u1v.apps.googleusercontent.com";
-const DRIVE_CLIENT_SECRET = "qjwB45qLa3Hf4piYAnlDoKxN";
+const DRIVE_CLIENT_ID = " 739926566274-hlgmmn8uqd42pggvhqp4ef8ka54vql00.apps.googleusercontent.com ";
+const DRIVE_CLIENT_SECRET = " -rt00cv_GlY9j12tRQbEuxPa ";
 const DRIVE_REDIRECT_URI =  "http://arif24.herokuapp.com/login-callback";
 const DRIVE_RETURN_FIELDS = 'id,name,webViewLink';
 const DRIVE_TORRENT_DIR = '';
