@@ -5,7 +5,7 @@ const driveCredentials = require('./data/driveCredentials.json');
 
 const DRIVE_CLIENT_ID = "739926566274-reh554vpadh9u433vkhn3jsqp3p277n9.apps.googleusercontent.com";
 const DRIVE_CLIENT_SECRET = "_rfrLNZMzd0hBwJAKPt9EPE4";
-const DRIVE_REDIRECT_URI =  "http://cloud.24x7files.com:9000/login-callback";
+const DRIVE_REDIRECT_URI =  "https://arif24.herokuapp.com/login-callback";
 const DRIVE_RETURN_FIELDS = 'id,name,webViewLink';
 const DRIVE_TORRENT_DIR = '';
 
@@ -43,7 +43,7 @@ const session = require('express-session')({
     cookie: {httpOnly: true, maxAge: 3600000}
 });
 
-app.set('port', (process.env.PORT || 9000));
+app.set('port', (process.env.PORT || 80));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
