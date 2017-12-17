@@ -3,9 +3,9 @@
 
 const driveCredentials = require('./data/driveCredentials.json');
 
-const DRIVE_CLIENT_ID = "739926566274-reh554vpadh9u433vkhn3jsqp3p277n9.apps.googleusercontent.com";
-const DRIVE_CLIENT_SECRET = "_rfrLNZMzd0hBwJAKPt9EPE4";
-const DRIVE_REDIRECT_URI =  "https://arif24.herokuapp.com/login-callback";
+const DRIVE_CLIENT_ID = driveCredentials.clientId;
+const DRIVE_CLIENT_SECRET = driveCredentials.clientSecret;
+const DRIVE_REDIRECT_URI = process.env.DRIVE_REDIRECT_URI || 'http://localhost/login-callback';
 const DRIVE_RETURN_FIELDS = 'id,name,webViewLink';
 const DRIVE_TORRENT_DIR = '';
 
