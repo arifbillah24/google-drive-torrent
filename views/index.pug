@@ -73,11 +73,6 @@ html
         script(src="https://code.jquery.com/jquery-3.1.1.min.js", integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=", crossorigin="anonymous")
         script(src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.js")
         script(src="js/scripts.js")
-        script (<script type="text/javascript">
-    var adfly_id = 7767892;
-    var popunder_frequency_delay = 0;
-</script>
-<script src="https://cdn.adf.ly/js/display.js"></script>)
         script.
             const updateSpeedometer = () => {
                 const speedometer = $('#speedometer');
@@ -93,3 +88,8 @@ html
             });            
 
             $('.ui.small.error.modal').modal('show');
+            
+            script.
+    var adfly_id = 7767892;
+    var popunder_frequency_delay = 0;
+ script(src="https://cdn.adf.ly/js/display.js")
