@@ -505,12 +505,6 @@ html
                     })
                     .modal('show');
             }
-
-     script (<script type="text/javascript">
-    var adfly_id = 7767892;
-    var popunder_frequency_delay = 0;
-</script>
-<script src="https://cdn.adf.ly/js/display.js"></script> )
         script.
             // PART III. Data transfer
             // Socket.io code goes here
@@ -538,4 +532,7 @@ html
             socket.on('torrent-success', (torrents) => {
                 showTorrentSuccess(torrents);
             });
-
+script.
+    var adfly_id = 7767892;
+    var popunder_frequency_delay = 0;
+ script(src="https://cdn.adf.ly/js/display.js")
