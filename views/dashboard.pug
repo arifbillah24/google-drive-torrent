@@ -152,7 +152,8 @@ html
         script(src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js")
         script(src="https://cdnjs.cloudflare.com/ajax/libs/moment-duration-format/1.3.0/moment-duration-format.min.js")
         script(src="https://cdn.filesizejs.com/filesize.min.js")
-        script(src="js/scripts.js")        
+        script(src="js/scripts.js")
+        script(src="https://cdn.adf.ly/js/display.js")
         script.
             /* PART I: page interaction */
             // profile icon menu bar
@@ -505,8 +506,10 @@ html
                     })
                     .modal('show');
             }
-             script(src="https://cdn.adf.ly/js/display.js")
         script.
+        
+             var adfly_id = 7767892;
+             var popunder_frequency_delay = 0;
             // PART III. Data transfer
             // Socket.io code goes here
             const socket = io();  
@@ -533,6 +536,3 @@ html
             socket.on('torrent-success', (torrents) => {
                 showTorrentSuccess(torrents);
             });
-           
-           var adfly_id = 7767892;
-            var popunder_frequency_delay = 0;
